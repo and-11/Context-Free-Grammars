@@ -5,8 +5,8 @@
 This repository contains an **interactive Python 3 program** that lets you:
 
 1. **Define** a context‑free grammar (CFG) from the keyboard;
-2. **Generate** random strings from the grammar (limit 10 chars, 5 samples);
-3. Show a **left‑ or right‑most derivation** for a given target string;
+2. **Generate** random strings from the grammar;
+3. Show **the derivations** for a given target string;
 4. **Recognise** whether a string belongs to the CFG's language.
 
 ---
@@ -15,7 +15,7 @@ This repository contains an **interactive Python 3 program** that lets you:
 
 ```bash
 python3 main.py
-
+```
 
 # 📘 Short Explanation of the Code
 
