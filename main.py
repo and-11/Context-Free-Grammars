@@ -159,7 +159,6 @@ def derivation_gen( cfg, s, max_len, src ):
     if not once :               # nu are nonterminale
         if src == s :
             path = s
-            print("a",s)
             return 1 
     else:
         for x in option_list :
